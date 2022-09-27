@@ -17,11 +17,6 @@ def def_casos(T):
     return casos_keys, casos_valor
 
 def ciclo_bleatrix(N, casos_keys):
-    """
-        x = []
-        for i in range(0,10):
-            x.append(i)
-    """
     validador = [0,1,2,3,4,5,6,7,8,9]
     valores_keys = []
     print(N)
@@ -53,3 +48,4 @@ if __name__ == "__main__":
 
     T_par = def_casos(T)
     print(ciclo_bleatrix(T_par[1], T_par[0]))
+    
